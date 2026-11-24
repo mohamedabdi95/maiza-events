@@ -184,8 +184,12 @@ function init() {
     g.fillStyle = vg; g.fillRect(0, 0, W, H);
     g.textAlign = 'center'; g.textBaseline = 'middle';
     if ('letterSpacing' in g) g.letterSpacing = '9px';
-    g.fillStyle = 'rgba(247,241,229,.92)'; g.font = '600 22px "Manrope", system-ui, sans-serif';
-    g.fillText('MAIZA EVENTS PRESENTS', W / 2, 158);
+    g.fillStyle = 'rgba(247,241,229,.92)';
+    const kicker = 'MAIZA EVENTS MANAGEMENT PRESENTS';
+    let ks = 22; g.font = `600 ${ks}px "Manrope", system-ui, sans-serif`;
+    const kw = g.measureText(kicker).width;
+    if (kw > W * 0.82) { ks *= (W * 0.82) / kw; g.font = `600 ${ks}px "Manrope", system-ui, sans-serif`; }
+    g.fillText(kicker, W / 2, 158);
     if ('letterSpacing' in g) g.letterSpacing = '3px';
     const word = SCREEN[i][0].toUpperCase();
     let size = 112; g.font = `600 ${size}px ${FONT}`;
