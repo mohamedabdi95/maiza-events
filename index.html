@@ -11,9 +11,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<script type="importmap">
-{ "imports": { "three": "./vendor/three/three.module.min.js", "three/addons/": "./vendor/three/addons/" } }
-</script>
 </head>
 <body class="is-loading">
 
@@ -296,6 +293,7 @@
 </footer>
 
 <script src="js/main.js" defer></script>
-<script type="module" src="js/scene.js"></script>
+<!-- Built from js/scene.js (see README). A plain script so the page also works when opened from disk. -->
+<script src="js/scene.bundle.js" defer onerror="document.documentElement.classList.add('no-webgl')"></script>
 </body>
 </html>

@@ -546,7 +546,7 @@ function init() {
     dustMat.uniforms.uTime.value = time;
 
     if (composer) composer.render(dt); else renderer.render(scene, camera);
-    if (first) { first = false; ready(); }
+    if (first) { first = false; document.documentElement.classList.remove('no-webgl'); ready(); }
   };
 
   resize();
