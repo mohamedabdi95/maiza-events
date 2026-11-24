@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maiza Events — Moments Become Memories</title>
+<meta name="description" content="Maiza Events plans, organises and manages conferences, book fairs, open markets, exhibitions, weddings and festivals with excellence.">
+<meta name="theme-color" content="#070604">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.min.js", "three/addons/": "./vendor/three/addons/" } }
+</script>
+</head>
+<body class="is-loading">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="g-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbeab5"/><stop offset=".45" stop-color="#d8a94a"/><stop offset="1" stop-color="#8f6a22"/>
+    </linearGradient>
+    <symbol id="i-logo" viewBox="0 0 64 52">
+      <path d="M4 48 19 8l13 30L45 8l15 40" fill="none" stroke="url(#g-gold)" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M13 48 22 24M51 48 42 24" fill="none" stroke="url(#g-gold)" stroke-width="1.4" stroke-linecap="round" opacity=".75"/>
+      <path d="M32 1l1.7 4.8L38.5 7.5l-4.8 1.7L32 14l-1.7-4.8-4.8-1.7 4.8-1.7z" fill="url(#g-gold)"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-rings" viewBox="0 0 24 24"><circle cx="8.5" cy="14" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="15.5" cy="14" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13.5 4.5 15.5 2l2 2.5-2 2z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><circle cx="12" cy="7.5" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="5" cy="10" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="19" cy="10" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6.5 20v-2.5a5.5 5.5 0 0 1 11 0V20M1.5 19v-1.5A3.5 3.5 0 0 1 5 14M22.5 19v-1.5A3.5 3.5 0 0 0 19 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6.5C10 5 7 4.5 3 5v13.5c4-.5 7 0 9 1.5 2-1.5 5-2 9-1.5V5c-4-.5-7 0-9 1.5zM12 6.5V20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-stall" viewBox="0 0 24 24"><path d="M3 9.5 5 4h14l2 5.5M3 9.5a3 3 0 0 0 6 0 3 3 0 0 0 6 0 3 3 0 0 0 6 0M4.5 12v8h15v-8M9.5 20v-4.5h5V20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-case" viewBox="0 0 24 24"><rect x="3" y="7.5" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 7.5V5.5a1.5 1.5 0 0 1 1.5-1.5h3A1.5 1.5 0 0 1 15 5.5v2M3 13h18M11 13v2h2v-2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3.5" y="10" width="17" height="10.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2.5 7h19v3h-19zM12 7v13.5M12 7S10.5 3 8 3.5 7 7 12 7zm0 0s1.5-4 4-3.5S17 7 12 7z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5.5l11-2.5v12.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="6.5" cy="18" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="15.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.9 6.4.9-4.7 4.5 1.2 6.4L12 17.4l-5.7 3.1 1.2-6.4L2.8 9.6l6.4-.9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-starf" viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.9 6.4.9-4.7 4.5 1.2 6.4L12 17.4l-5.7 3.1 1.2-6.4L2.8 9.6l6.4-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 10h17M8 3v4M16 3v4M8 14h2M14 14h2M8 17h2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.5s7-6.2 7-11.5a7 7 0 0 0-14 0c0 5.300 7 11.5 7 11.5z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.5S3.5 15.5 3.5 9.300A4.600 4.600 0 0 1 12 6.800a4.600 4.600 0 0 1 8.5 2.5c0 6.200-8.5 11.200-8.5 11.200z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8.5V7c0-.8.300-1.200 1.300-1.200H17V2.700h-2.600C11.700 2.700 10.5 4.300 10.5 6.800v1.700H8v3.200h2.5v9.600H14v-9.600h2.600l.4-3.200z" fill="currentColor"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17.200" cy="6.800" r="1.100" fill="currentColor"/></symbol>
+    <symbol id="i-yt" viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="4" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M10 9.200v5.600l5-2.800z" fill="currentColor"/></symbol>
+    <symbol id="i-in" viewBox="0 0 24 24"><path d="M5 9.5h3v10H5zM6.5 4.5a1.700 1.700 0 1 1 0 3.400 1.700 1.700 0 0 1 0-3.400zM10.5 9.5h2.900v1.400c.5-.9 1.6-1.700 3.200-1.700 2.700 0 3.400 1.700 3.400 4.200v6.100h-3v-5.5c0-1.200-.3-2.100-1.6-2.100s-1.900.9-1.900 2.200v5.400h-3z" fill="currentColor"/></symbol>
+  </defs>
+</svg>
+
+<div class="loader" id="loader" role="status" aria-label="Loading">
+  <svg class="loader-mark" viewBox="0 0 64 52"><path pathLength="1" d="M4 48 19 8l13 30L45 8l15 40" fill="none" stroke="url(#g-gold)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+  <div class="loader-word">Maiza Events</div>
+  <div class="loader-bar"><i id="loaderBar"></i></div>
+</div>
+
+<div class="progress" aria-hidden="true"><i id="progress"></i></div>
+<div class="cursor" aria-hidden="true"><i class="cursor-dot"></i><i class="cursor-ring"></i></div>
+
+<canvas id="scene" aria-hidden="true"></canvas>
+<div class="scene-fallback" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#home" aria-label="Maiza Events home">
+    <svg class="brand-mark"><use href="#i-logo"/></svg>
+    <span class="brand-text"><b>Maiza Events</b><small>Plan · Celebrate · Inspire</small></span>
+  </a>
+  <nav class="nav-links" id="navLinks" aria-label="Primary">
+    <a href="#home" class="is-active">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn-line nav-cta" href="#contact" data-magnetic>Book an Event <svg><use href="#i-arrow"/></svg></a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><i></i><i></i></button>
+</header>
+
+<main>
+
+<section class="hero" id="home" data-shot="hero">
+  <div class="hero-inner">
+    <p class="eyebrow reveal">Conferences · Book Fairs · Open Markets · Weddings</p>
+    <h1 class="hero-title" data-split aria-label="We create moments that become memories">
+      <span class="line">We create</span>
+      <span class="line gold big">Moments</span>
+      <span class="line">that become</span>
+      <span class="line">Memories</span>
+    </h1>
+    <p class="hero-sub reveal" style="--d:.9s">From conferences and book fairs to open markets and weddings, we plan, organise and manage every detail with excellence.</p>
+    <div class="hero-cta reveal" style="--d:1.05s">
+      <a class="btn btn-gold" href="#contact" data-magnetic>Plan Your Event <svg><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-ghost" href="#gallery" data-magnetic><svg><use href="#i-play"/></svg> Explore Our World</a>
+    </div>
+    <div class="hero-hint reveal" style="--d:1.2s" aria-hidden="true"><span>Move your cursor to explore the stage</span></div>
+  </div>
+  <a class="scroll-cue" href="#services" aria-label="Scroll to services"><span>Scroll to explore</span><i></i><b></b></a>
+</section>
+
+<section class="services" id="services" data-shot="services">
+  <div class="wrap">
+    <div class="cards">
+      <a class="card tilt reveal" href="#contact" style="--d:.0s">
+        <span class="card-media"><img src="assets/img/keynote.webp" alt="Speaker on a conference stage with a large LED screen" width="880" height="880" loading="lazy"></span>
+        <span class="card-body"><svg class="ico"><use href="#i-people"/></svg><span class="card-text"><b>Conferences</b><small>Share · Learn · Grow</small></span></span>
+        <span class="card-go"><svg><use href="#i-arrow"/></svg></span><span class="glare"></span>
+      </a>
+      <a class="card tilt reveal" href="#contact" style="--d:.07s">
+        <span class="card-media"><img src="assets/img/bookfair.webp" alt="Visitors browsing books at a book fair" width="880" height="880" loading="lazy"></span>
+        <span class="card-body"><svg class="ico"><use href="#i-book"/></svg><span class="card-text"><b>Book Fairs</b><small>Read · Discover · Meet</small></span></span>
+        <span class="card-go"><svg><use href="#i-arrow"/></svg></span><span class="glare"></span>
+      </a>
+      <a class="card tilt reveal" href="#contact" style="--d:.14s">
+        <span class="card-media"><img src="assets/img/market.webp" alt="Open-air market stalls under string lights" width="880" height="880" loading="lazy"></span>
+        <span class="card-body"><svg class="ico"><use href="#i-stall"/></svg><span class="card-text"><b>Open Markets</b><small>Shop · Taste · Connect</small></span></span>
+        <span class="card-go"><svg><use href="#i-arrow"/></svg></span><span class="glare"></span>
+      </a>
+      <a class="card tilt reveal" href="#contact" style="--d:.21s">
+        <span class="card-media"><img src="assets/img/expo.webp" alt="Exhibition booths at a trade expo" width="880" height="880" loading="lazy"></span>
+        <span class="card-body"><svg class="ico"><use href="#i-case"/></svg><span class="card-text"><b>Exhibitions</b><small>Showcase · Launch · Sell</small></span></span>
+        <span class="card-go"><svg><use href="#i-arrow"/></svg></span><span class="glare"></span>
+      </a>
+      <a class="card tilt reveal" href="#contact" style="--d:.28s">
+        <span class="card-media"><img src="assets/img/wedding.webp" alt="Gold wedding rings on ivory silk" width="880" height="880" loading="lazy"></span>
+        <span class="card-body"><svg class="ico"><use href="#i-rings"/></svg><span class="card-text"><b>Weddings</b><small>A perfect start to forever</small></span></span>
+        <span class="card-go"><svg><use href="#i-arrow"/></svg></span><span class="glare"></span>
+      </a>
+      <a class="card tilt reveal" href="#contact" style="--d:.35s">
+        <span class="card-media"><img src="assets/img/festival.webp" alt="Festival crowd and stage lights" width="880" height="880" loading="lazy"></span>
+        <span class="card-body"><svg class="ico"><use href="#i-music"/></svg><span class="card-text"><b>Festivals</b><small>Experience the joy</small></span></span>
+        <span class="card-go"><svg><use href="#i-arrow"/></svg></span><span class="glare"></span>
+      </a>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Conferences</span><i>✦</i><span>Book Fairs</span><i>✦</i><span>Open Markets</span><i>✦</i><span>Exhibitions</span><i>✦</i><span>Corporate Galas</span><i>✦</i><span>Weddings</span><i>✦</i><span>Festivals</span><i>✦</i><span>Product Launches</span><i>✦</i>
+      <span>Conferences</span><i>✦</i><span>Book Fairs</span><i>✦</i><span>Open Markets</span><i>✦</i><span>Exhibitions</span><i>✦</i><span>Corporate Galas</span><i>✦</i><span>Weddings</span><i>✦</i><span>Festivals</span><i>✦</i><span>Product Launches</span><i>✦</i>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about" data-shot="about">
+  <div class="wrap about-grid">
+    <div class="about-copy">
+      <p class="eyebrow reveal">About Maiza Events</p>
+      <h2 class="display reveal" style="--d:.08s">Every detail.<br>Every emotion.<br>Every <em>moment.</em></h2>
+      <p class="lead reveal" style="--d:.16s">Keynote stages, book fair halls, open-air markets and wedding aisles — we turn your ideas into extraordinary events with creativity, professionalism and passion.</p>
+      <a class="btn btn-gold reveal" style="--d:.24s" href="#process" data-magnetic>About Maiza Events <svg><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="about-window" aria-hidden="true"></div>
+    <ul class="stats">
+      <li class="reveal" style="--d:.1s"><svg><use href="#i-star"/></svg><div><b><span data-count="5">0</span>+</b><small>Years of Excellence</small></div></li>
+      <li class="reveal" style="--d:.2s"><svg><use href="#i-cal"/></svg><div><b><span data-count="500">0</span>+</b><small>Events Successfully Managed</small></div></li>
+      <li class="reveal" style="--d:.3s"><svg><use href="#i-heart"/></svg><div><b><span data-count="100">0</span>%</b><small>Client Satisfaction</small></div></li>
+    </ul>
+  </div>
+</section>
+
+<section class="gallery" id="gallery" data-shot="gallery">
+  <div class="wrap head-row">
+    <div>
+      <p class="eyebrow reveal">Our Gallery</p>
+      <h2 class="display sm reveal" style="--d:.08s">Moments We've Created</h2>
+    </div>
+    <div class="ring-ctrl reveal" style="--d:.16s">
+      <button class="round" id="ringPrev" aria-label="Previous photo"><svg style="transform:scaleX(-1)"><use href="#i-arrow"/></svg></button>
+      <button class="round" id="ringNext" aria-label="Next photo"><svg><use href="#i-arrow"/></svg></button>
+    </div>
+  </div>
+  <div class="ring-stage" id="ringStage" aria-roledescription="carousel" aria-label="Event gallery, drag to rotate">
+    <div class="ring" id="ring">
+      <figure class="panel"><img src="assets/img/keynote.webp" alt="Conference keynote on stage" width="880" height="880" loading="lazy" draggable="false"><figcaption>Conference Keynote</figcaption></figure>
+      <figure class="panel"><img src="assets/img/bookfair.webp" alt="Book fair hall" width="880" height="880" loading="lazy" draggable="false"><figcaption>Book Fair</figcaption></figure>
+      <figure class="panel"><img src="assets/img/market.webp" alt="Open-air market at dusk" width="880" height="880" loading="lazy" draggable="false"><figcaption>Open Market</figcaption></figure>
+      <figure class="panel"><img src="assets/img/expo.webp" alt="Exhibition hall booths" width="880" height="880" loading="lazy" draggable="false"><figcaption>Exhibition Hall</figcaption></figure>
+      <figure class="panel"><img src="assets/img/corporate.webp" alt="Corporate gala dinner" width="880" height="880" loading="lazy" draggable="false"><figcaption>Corporate Gala</figcaption></figure>
+      <figure class="panel"><img src="assets/img/festival.webp" alt="Festival night" width="880" height="880" loading="lazy" draggable="false"><figcaption>Festival Night</figcaption></figure>
+      <figure class="panel"><img src="assets/img/aisle.webp" alt="Wedding aisle with floral arch" width="880" height="880" loading="lazy" draggable="false"><figcaption>Wedding Aisle</figcaption></figure>
+      <figure class="panel"><img src="assets/img/conference.webp" alt="Conference hall set for delegates" width="880" height="880" loading="lazy" draggable="false"><figcaption>Conference Hall</figcaption></figure>
+    </div>
+  </div>
+  <p class="ring-hint" aria-hidden="true">Drag to rotate</p>
+</section>
+
+<section class="events" id="events">
+  <div class="wrap events-grid">
+    <div class="events-copy">
+      <p class="eyebrow reveal">Upcoming</p>
+      <h2 class="display sm reveal" style="--d:.08s">Don't Miss Our Upcoming Events</h2>
+      <p class="lead reveal" style="--d:.16s">Be part of something extraordinary.</p>
+      <a class="btn btn-gold reveal" style="--d:.24s" href="#contact" data-magnetic>View All Events <svg><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="event-cards">
+      <article class="event tilt reveal" style="--d:.05s">
+        <div class="event-media"><img src="assets/img/keynote.webp" alt="" width="880" height="880" loading="lazy"><time class="date" datetime="2026-12-20"><small>Dec</small><b>20</b></time></div>
+        <div class="event-body"><h3>Business Leadership Conference</h3><p class="where"><svg><use href="#i-pin"/></svg>Nairobi, Kenya</p><p>Innovate. Lead. Grow.</p><a class="event-go" href="#contact" aria-label="Enquire about Business Leadership Conference"><svg><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="event tilt reveal" style="--d:.15s">
+        <div class="event-media"><img src="assets/img/bookfair.webp" alt="" width="880" height="880" loading="lazy"><time class="date" datetime="2027-01-15"><small>Jan</small><b>15</b></time></div>
+        <div class="event-body"><h3>Maiza Book Fair 2027</h3><p class="where"><svg><use href="#i-pin"/></svg>Mogadishu, Somalia</p><p>Authors, publishers and readers under one roof.</p><a class="event-go" href="#contact" aria-label="Enquire about Maiza Book Fair 2027"><svg><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="event tilt reveal" style="--d:.25s">
+        <div class="event-media"><img src="assets/img/market.webp" alt="" width="880" height="880" loading="lazy"><time class="date" datetime="2027-02-06"><small>Feb</small><b>06</b></time></div>
+        <div class="event-body"><h3>Weekend Open Market</h3><p class="where"><svg><use href="#i-pin"/></svg>Mogadishu, Somalia</p><p>Local makers, food and family fun.</p><a class="event-go" href="#contact" aria-label="Enquire about Weekend Open Market"><svg><use href="#i-arrow"/></svg></a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="wrap">
+    <p class="eyebrow center reveal">How We Work</p>
+    <h2 class="display sm center reveal" style="--d:.08s">From first idea to final applause</h2>
+    <ol class="steps">
+      <li class="reveal" style="--d:.05s"><span class="num">01</span><h3>Dream</h3><p>We listen to your goals, your audience and your budget.</p></li>
+      <li class="reveal" style="--d:.15s"><span class="num">02</span><h3>Design</h3><p>Concept, venue, décor and schedule shaped into one plan.</p></li>
+      <li class="reveal" style="--d:.25s"><span class="num">03</span><h3>Deliver</h3><p>Our team runs every vendor and every minute on the day.</p></li>
+      <li class="reveal" style="--d:.35s"><span class="num">04</span><h3>Delight</h3><p>You enjoy the moment. Your guests, delegates and visitors remember it.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="voices" id="voices">
+  <div class="wrap voices-grid">
+    <div class="voices-copy">
+      <p class="eyebrow reveal">Testimonials</p>
+      <h2 class="display sm reveal" style="--d:.08s">What Our Clients Say</h2>
+      <div class="quotes reveal" style="--d:.16s" id="quotes" aria-live="polite">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <blockquote class="quote is-active"><p>The stage, the schedule, the speakers — handled so smoothly that we could simply focus on our delegates.</p><footer>— Client Name, Conference<span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg></span></footer></blockquote>
+        <blockquote class="quote"><p>Every publisher had a stand ready on time and the halls stayed full all weekend. Our best book fair yet.</p><footer>— Client Name, Book Fair<span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg></span></footer></blockquote>
+        <blockquote class="quote"><p>Stalls, power, security and crowd flow were all taken care of. Our vendors sold out on the first day.</p><footer>— Client Name, Open Market<span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg></span></footer></blockquote>
+        <blockquote class="quote"><p>Maiza Events made our wedding unforgettable. Everything was perfect, from planning to execution!</p><footer>— Amina Hassan, Wedding<span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg><svg><use href="#i-starf"/></svg></span></footer></blockquote>
+        <div class="dots" id="quoteDots"></div>
+      </div>
+    </div>
+    <div class="portrait reveal" style="--d:.1s" id="portrait">
+      <i class="halo h1"></i><i class="halo h2"></i>
+      <div class="portrait-img"><img src="assets/img/planner.webp" alt="A smiling event manager with a headset and tablet at a conference venue" width="880" height="880" loading="lazy"></div>
+      <span class="chip c1"><svg><use href="#i-cal"/></svg> 500+ events delivered</span>
+      <span class="chip c2"><svg><use href="#i-starf"/></svg> 100% satisfaction</span>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-copy">
+      <p class="eyebrow reveal">Let's Talk</p>
+      <h2 class="display reveal" style="--d:.08s">Ready to Plan Your <em>Next Event?</em></h2>
+      <p class="lead reveal" style="--d:.16s">Let's create something amazing together. Tell us a little about your day and we will come back with ideas.</p>
+      <ul class="ticks reveal" style="--d:.24s">
+        <li>One dedicated planner from start to finish</li>
+        <li>Venue, décor, catering and production in one team</li>
+        <li>Clear budget before anything is booked</li>
+      </ul>
+    </div>
+    <form class="form tilt-soft reveal" style="--d:.12s" id="bookForm" novalidate>
+      <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+      <div class="field"><label for="f-contact">Email or phone</label><input id="f-contact" name="contact" autocomplete="email" required></div>
+      <div class="field half"><label for="f-type">Event type</label>
+        <select id="f-type" name="type" required><option value="">Select…</option><option>Conference</option><option>Book fair</option><option>Open market</option><option>Exhibition / expo</option><option>Corporate event</option><option>Wedding</option><option>Festival</option><option>Birthday</option><option>Other</option></select></div>
+      <div class="field half"><label for="f-date">Event date</label><input id="f-date" name="date" type="date"></div>
+      <div class="field"><label for="f-msg">Tell us about it</label><textarea id="f-msg" name="message" rows="3"></textarea></div>
+      <button class="btn btn-gold wide" type="submit" data-magnetic>Contact Us <svg><use href="#i-arrow"/></svg></button>
+      <p class="form-note" id="formNote" role="status"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <a class="brand" href="#home" aria-label="Maiza Events home">
+      <svg class="brand-mark"><use href="#i-logo"/></svg>
+      <span class="brand-text"><b>Maiza Events</b><small>Plan · Celebrate · Inspire</small></span>
+    </a>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="#home">Home</a><a href="#events">Events</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="social">
+      <a href="#" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a>
+      <a href="#" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+      <a href="#" aria-label="YouTube"><svg><use href="#i-yt"/></svg></a>
+      <a href="#" aria-label="LinkedIn"><svg><use href="#i-in"/></svg></a>
+    </div>
+    <div class="sign">
+      <p class="script">Together, we make moments last forever.</p>
+      <small>© 2026 Maiza Events. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+<script type="module" src="js/scene.js"></script>
+</body>
+</html>
